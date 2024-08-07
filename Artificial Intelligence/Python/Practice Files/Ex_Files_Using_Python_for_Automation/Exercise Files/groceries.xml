@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grocery_list>
+    <grocery_item>
+        <name>Apples (per pound)</name>
+        <price>1.50</price>
+    </grocery_item>
+    <grocery_item>
+        <name>Bananas (per pound)</name>
+        <price>0.75</price>
+    </grocery_item>
+    <grocery_item>
+        <name>Oranges (per pound)</name>
+        <price>2.00</price>
+    </grocery_item>
+    <grocery_item>
+        <name>Plums (per pound)</name>
+        <price>1.80</price>
+    </grocery_item>
+    <grocery_item>
+        <name>Milk</name>
+        <price>2.49</price>
+    </grocery_item>
+    <grocery_item>
+        <name>Sour cream</name>
+        <price>1.79</price>
+    </grocery_item>
+    <grocery_item>
+        <name>Tortilla chips</name>
+        <price>2.49</price>
+    </grocery_item>
+    <grocery_item>
+        <name>Salsa</name>
+        <price>2.29</price>
+    </grocery_item>
+    <grocery_item>
+        <name>Carrots (per pound)</name>
+        <price>1.25</price>
+    </grocery_item>
+    <grocery_item>
+        <name>Broccoli (per pound)</name>
+        <price>2.50</price>
+    </grocery_item>
+    <grocery_item>
+        <name>Spinach (per bunch)</name>
+        <price>1.75</price>
+    </grocery_item>
+    <grocery_item>
+        <name>Avocados (per bag)</name>
+        <price>6.99</price>
+    </grocery_item>
+    <grocery_item>
+        <name>Cauliflower (per pound)</name>
+        <price>2.99</price>
+    </grocery_item>
+    <grocery_item>
+        <name>Blueberries (per pint)</name>
+        <price>3.99</price>
+    </grocery_item>
+    <grocery_item>
+        <name>Ketchup</name>
+        <price>1.49</price>
+    </grocery_item>
+    <grocery_item>
+        <name>Black beans (per can)</name>
+        <price>0.99</price>
+    </grocery_item>
+    <grocery_item>
+        <name>Bread</name>
+        <price>1.99</price>
+    </grocery_item>
+    <grocery_item>
+        <name>Cereal</name>
+        <price>3.29</price>
+    </grocery_item>
+    <grocery_item>
+        <name>Coffee (per pound)</name>
+        <price>7.99</price>
+    </grocery_item>
+    <grocery_item>
+        <name>Almonds (per pound)</name>
+        <price>6.99</price>
+    </grocery_item>
+    <grocery_item>
+        <name>Avocado Oil</name>
+        <price>14.49</price>
+    </grocery_item>
+    <grocery_item>
+        <name>Truffle Oil</name>
+        <price>18.99</price>
+    </grocery_item>
+    <grocery_item>
+        <name>Saffron (per gram)</name>
+        <price>15.99</price>
+    </grocery_item>
+</grocery_list>
