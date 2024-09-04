@@ -1,0 +1,132 @@
+/* General styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #121212;
+  color: #E0E0E0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+main {
+  text-align: center;
+  width: 90%;
+  max-width: 600px;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #1E1E1E;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #00FFAB;
+}
+
+h4 {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  color: #00E0FF;
+}
+
+/* Chat container styles */
+.chat-container {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column-reverse;
+  background: #2E2E2E;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.output {
+  text-align: left;
+}
+
+.message {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.user-message {
+  background: #2E2E2E;
+  color: #E0E0E0;
+  align-self: flex-end;
+}
+
+.bot-message {
+  background: #1E1E1E;
+  color: #00FFAB;
+  align-self: flex-start;
+}
+
+/* Form styles */
+.prompt-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prompt-box label {
+  flex-grow: 1;
+}
+
+.prompt-box input[type="text"] {
+  width: 100%;
+  padding: 0.75rem;
+  margin-right: 1rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  background: #2E2E2E;
+  color: #E0E0E0;
+}
+
+.prompt-box button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  background: #00FFAB;
+  color: #121212;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.prompt-box button:hover {
+  background: #00E0FF;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  .prompt-box input[type="text"] {
+    font-size: 0.875rem;
+  }
+
+  .prompt-box button {
+    font-size: 0.875rem;
+  }
+
+  .output {
+    font-size: 0.875rem;
+  }
+}
